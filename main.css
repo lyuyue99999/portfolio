@@ -4,7 +4,7 @@ body {
 }
 
 /* Media queries for different screen sizes */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
     body {
         width: 1280px;
         margin: auto;
@@ -35,7 +35,7 @@ body {
     }
 }
 
-@media screen and (min-width: 760px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
     /* Set background image for banner */
     .banner {
         background-image: url(images/pixel-art-1024.jpg);
@@ -47,7 +47,7 @@ body {
     }
 }
 
-@media screen and (max-width: 759px) {
+@media screen and (max-width: 1024px) {
     /* Set background image for banner */
     .banner {
         background-image: url(images/pixel-art-760.jpg);
@@ -203,10 +203,6 @@ body {
     background-color: aliceblue; /* Light blue background color */
 }
 
-/* Styles for cards */
-.card {
-    font-family: "Roboto", sans-serif;
-}
 
 /* Styles for primary custom buttons */
 .btn-primary-custom {
