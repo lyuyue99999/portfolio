@@ -1,0 +1,214 @@
+/* Set the primary font to Pixelify Sans */
+body {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+/* Media queries for different screen sizes */
+@media screen and (min-width: 1024px) {
+    body {
+        width: 1280px;
+        margin: auto;
+    }
+
+    /* Set background image for banner */
+    .banner {
+        background-image: url(images/Pixel\ Art-1280.jpg);
+    }
+
+    /* Hide navigation for smaller screens */
+    .nav-phone{
+        display: none;
+    }
+
+    /* Styles for the experience section row divider */
+    .experience .row-divider {
+        position: relative;
+    }
+      
+    .experience .row-divider::after {
+        content: '';
+        position: absolute;
+        top: 80%;
+        left: 0;
+        width: 100%;
+        border-top: 1px solid #5B40C5; 
+    }
+}
+
+@media screen and (min-width: 760px) {
+    /* Set background image for banner */
+    .banner {
+        background-image: url(images/Pixel\ Art-1024.jpg);
+    }
+
+    /* Hide navigation for smaller screens */
+    .nav-phone{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    /* Set background image for banner */
+    .banner {
+        background-image: url(images/Pixel\ Art-760.jpg);
+    }
+
+    /* Hide navigation links in header */
+    .header .nav {
+        display: none;
+    }
+
+    /* Set background color for navbar */
+    .navbar {
+        background-color: #5B40C5;
+    }
+}
+
+/* Define header area styles */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #5B40C5; /* Purple background color */
+}
+
+/* Styles for logo image in header */
+.header img {
+    margin-left: 3vw;
+}
+
+/* Styles for the heading */
+.header h1 {
+    margin-right: auto;
+    margin-left: auto;
+    color: #F9C91F; /* Yellow color */
+}
+
+/* Styles for the navigation menu */
+.header ul {
+    margin-right: 3vw;
+    font-size: x-large;
+}
+
+/* Styles for navigation links */
+.header a {
+    color: #F9C91F; /* Yellow color */
+}
+
+/* Styles for hover effect on navigation links */
+.header a:hover {
+    color: aliceblue; /* Light blue color on hover */
+}
+
+/* Styles for text content */
+.text-content {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 30px; /* Rounded corners */
+    color: #5B40C5; /* Purple color */
+    margin-bottom: 10vw;
+}
+
+/* Styles for container */
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* Styles for slogan */
+.slogan {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 60vw;
+    margin-top: 30px;
+}
+
+/* Styles for slogan heading */
+.slogan h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+/* Grid layout styles for slogan elements */
+.slogan .block:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.slogan .animate__animated {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+}
+
+.slogan .block:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+/* Styles for secondary text */
+.text2 {
+    margin-top: 7vw;
+    text-align: center;
+}
+
+/* Styles for the experience section */
+.experience {
+    margin-top: 10vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-bottom: 10vw;
+}
+
+/* Styles for rows in the experience section */
+.experience .row {
+    height: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Styles for the work section */
+.work {
+    position: relative;
+}
+
+/* Styles for heading in the work section */
+.work h2 {
+    text-align: center;
+}
+
+/* Styles for work content */
+.work-content {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Styles for work cards */
+.work .card {
+    margin: 10vw;
+    margin-bottom: 5vw;
+}
+
+/* Styles for work links */
+.work a {
+    background-color: #5B40C5; /* Purple background color */
+}
+
+/* Hover styles for work links */
+.work a:hover {
+    color: #5B40C5; /* Purple color */
+    background-color: aliceblue; /* Light blue background color */
+}
+
+/* Styles for cards */
+.card {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Styles for primary custom buttons */
+.btn-primary-custom {
+    background-color: #5B40C5; /* Purple background color */
+}
