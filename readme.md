@@ -1,3 +1,21 @@
+# Framework
+https://getbootstrap.com/  
+https://bulma.io/
+
+# Css Library Link
+https://animate.style/  
+Animation is used on the index page. When you go to this page, my avatar image will bounce in.
+
+# Plugins and Fonts
+Google fonts - Pixelify Sans https://fonts.google.com/specimen/Pixelify+Sans  
+Google fonts - Roboto https://fonts.google.com/specimen/Roboto
+
+# Images and content
+All images are non-copyrighted, non-stock images images. All written content is sourced from myself.
+
+# Basic Site map and information
+The home page, "works"，“about” and "contact" pages all work fine. You can click on "Works" in the navbar and it will take you directly to the "Recent works" section of my homepage. If you want to see what I'm working on, you can click on "visit website".
+
 # Portfolio
 
 Welcome to my portfolio! This repository showcases two of my key projects that demonstrate my skills in web development and app interaction design.
