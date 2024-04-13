@@ -1,49 +1,50 @@
+/* Set the font family for the entire body */
 body {
     font-family: "Pixelify Sans", sans-serif;
 }
 
-/* Media queries for different screen sizes */
+/* Media queries for screens with a minimum width of 1280px */
 @media screen and (min-width: 1280px) {
     body {
         width: 1280px;
-        margin: auto;
+        margin: auto; /* Center the content horizontally */
     }
 
     /* Hide navigation for smaller screens */
-    .nav-phone{
+    .nav-phone {
         display: none;
     }
 }
 
+/* Media queries for screens with a width between 1024px and 1280px */
 @media (min-width: 1024px) and (max-width: 1280px) {
-    
     /* Hide navigation for smaller screens */
-    .nav-phone{
+    .nav-phone {
         display: none;
     }
 }
 
+/* Media queries for screens with a maximum width of 1024px */
 @media screen and (max-width: 1024px) {
-    
-    /* Hide navigation links in header */
+    /* Hide navigation links in the header */
     .header .nav {
         display: none;
     }
 
     /* Set background color for navbar */
     .navbar {
-        background-color: #5B40C5;
+        background-color: #5B40C5; /* Purple background color */
     }
 }
 
-/* Define header area styles */
+/* Define styles for the header area */
 .header {
     display: flex;
     align-items: center;
     background-color: #5B40C5; /* Purple background color */
 }
 
-/* Styles for logo image in header */
+/* Styles for the logo image in the header */
 .header img {
     margin-left: 3vw;
 }
@@ -71,23 +72,22 @@ body {
     color: aliceblue; /* Light blue color on hover */
 }
 
-.grid {
-    margin: 2vw;
-}
-
+/* Define styles for the picture element */
 picture {
     display: flex;
     justify-content: center;
 }
 
+/* Styles for the control buttons */
 .control button {
-    color:aliceblue;
-    background-color: #5B40C5;
+    color: aliceblue;
+    background-color: #5B40C5; /* Purple background color */
 }
 
+/* Styles for hover effect on control buttons */
 .control button:hover {
-    color: #5B40C5;
-    background-color: aliceblue;
+    color: #5B40C5; /* Purple color on hover */
+    background-color: aliceblue; /* Light blue background color on hover */
 }
 
 /* Styles for primary custom buttons */
@@ -95,6 +95,7 @@ picture {
     background-color: #5B40C5; /* Purple background color */
 }
 
+/* Define styles for the card footer */
 .card-footer {
     display: flex;
     justify-content: center;
