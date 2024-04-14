@@ -72,27 +72,20 @@ body {
     color: aliceblue; /* Light blue color on hover */
 }
 
-/* Define styles for the picture element */
-picture {
-    display: flex;
-    justify-content: center;
+.contact {
+    margin: 2vw;
 }
 
 /* Styles for the control buttons */
-.control button {
+.contact button {
     color: aliceblue;
     background-color: #5B40C5; /* Purple background color */
 }
 
 /* Styles for hover effect on control buttons */
-.control button:hover {
+.contact button:hover {
     color: #5B40C5; /* Purple color on hover */
     background-color: aliceblue; /* Light blue background color on hover */
-}
-
-/* Styles for primary custom buttons */
-.btn-primary-custom {
-    background-color: #5B40C5; /* Purple background color */
 }
 
 /* Define styles for the card footer */

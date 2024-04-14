@@ -1,6 +1,5 @@
 # Framework
 https://getbootstrap.com/  
-https://bulma.io/
 
 # Css Library Link
 https://animate.style/  
