@@ -157,38 +157,38 @@ body {
     align-items: center;
 }
 
-    /* Styles for slogan */
-    .slogan {
-        display: grid;
-        grid-template-columns: auto auto;
-        width: 60vw;
-        margin-top: 30px;
-    }
-    
-    /* Styles for slogan heading */
-    .slogan h2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-    }
-    
-    /* Grid layout styles for slogan elements */
-    .slogan .block:nth-child(1) {
-        grid-column: 1;
-        grid-row: 1;
-    }
-    
-    .slogan .animate__animated {
-        grid-column: 2;
-        grid-row: 1 / span 2;
-    }
-    
-    .slogan .block:nth-child(3) {
-        grid-column: 1;
-        grid-row: 2;
-    }
+/* Styles for slogan */
+.slogan {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 60vw;
+    margin-top: 30px;
+}
+
+/* Styles for slogan heading */
+.slogan h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+/* Grid layout styles for slogan elements */
+.slogan .block:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.slogan .animate__animated {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+}
+
+.slogan .block:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+}
 
 /* Styles for secondary text */
 .text2 {
@@ -242,7 +242,6 @@ body {
     color: #5B40C5; /* Purple color */
     background-color: aliceblue; /* Light blue background color */
 }
-
 
 /* Styles for primary custom buttons */
 .btn-primary-custom {
