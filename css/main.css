@@ -12,7 +12,7 @@ body {
 
     /* Set background image for banner */
     .banner {
-        background-image: url(images/pixel-art-1280.jpg);
+        background-image: url(../images/pixel-art-1280.jpg);
     }
 
     /* Hide navigation for smaller screens */
@@ -38,7 +38,7 @@ body {
 @media (min-width: 1024px) and (max-width: 1280px) {
     /* Set background image for banner */
     .banner {
-        background-image: url(images/pixel-art-1024.jpg);
+        background-image: url(../images/pixel-art-1024.jpg);
     }
 
     /* Hide navigation for smaller screens */
@@ -50,7 +50,7 @@ body {
 @media screen and (max-width: 1024px) {
     /* Set background image for banner */
     .banner {
-        background-image: url(images/pixel-art-760.jpg);
+        background-image: url(../images/pixel-art-760.jpg);
     }
 
     /* Hide navigation links in header */
