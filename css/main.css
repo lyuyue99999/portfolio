@@ -20,18 +20,12 @@ body {
         display: none;
     }
 
-    /* Styles for the experience section row divider */
-    .experience .row-divider {
-        position: relative;
+    .phone-banner {
+        display: none;
     }
-      
-    .experience .row-divider::after {
-        content: '';
-        position: absolute;
-        top: 80%;
-        left: 0;
-        width: 100%;
-        border-top: 1px solid #5B40C5; 
+
+    .work-phone {
+        display: none;
     }
 }
 
@@ -45,11 +39,20 @@ body {
     .nav-phone{
         display: none;
     }
+
+    .phone-banner {
+        display: none;
+    }
+
+    .work-phone {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
     /* Set background image for banner */
-    .banner {
+    .phone-banner {
         background-image: url(../images/pixel-art-760.jpg);
     }
 
@@ -62,6 +65,44 @@ body {
     .navbar {
         background-color: #5B40C5;
     }
+
+    .banner {
+        display: none;
+    }
+
+    .work {
+        display: none;
+    }
+
+    .slogan-phone h2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        margin-top: 2vw;
+    }
+
+    .experience-phone {
+        margin: 2vw;
+    }
+
+    .work-phone h2 {
+        text-align: center;
+    }
+
+    .work-phone .work-content {
+        display: block;
+        margin: 2vw;
+    }
+
+    .work-phone a {
+        background-color: #5B40C5;
+        color: aliceblue;
+    }
+
+    .work-phone a:hover {
+        background-color: aliceblue;
+        color: #5B40C5;
+    }
+    
 }
 
 /* Define header area styles */
@@ -116,38 +157,38 @@ body {
     align-items: center;
 }
 
-/* Styles for slogan */
-.slogan {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 60vw;
-    margin-top: 30px;
-}
-
-/* Styles for slogan heading */
-.slogan h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-}
-
-/* Grid layout styles for slogan elements */
-.slogan .block:nth-child(1) {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.slogan .animate__animated {
-    grid-column: 2;
-    grid-row: 1 / span 2;
-}
-
-.slogan .block:nth-child(3) {
-    grid-column: 1;
-    grid-row: 2;
-}
+    /* Styles for slogan */
+    .slogan {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 60vw;
+        margin-top: 30px;
+    }
+    
+    /* Styles for slogan heading */
+    .slogan h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+    }
+    
+    /* Grid layout styles for slogan elements */
+    .slogan .block:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .slogan .animate__animated {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+    
+    .slogan .block:nth-child(3) {
+        grid-column: 1;
+        grid-row: 2;
+    }
 
 /* Styles for secondary text */
 .text2 {
